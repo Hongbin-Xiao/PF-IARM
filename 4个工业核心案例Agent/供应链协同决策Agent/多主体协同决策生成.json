@@ -1,0 +1,1515 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "40a9997f-d5dd-45ce-93dc-69ee5740efae",
+      "zIndex": 0,
+      "source": {
+        "cell": "e809234c-513e-4554-8ef7-7811eda64423",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "890f5053-43df-4585-877a-a4310d5fa5e9",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "e809234c-513e-4554-8ef7-7811eda64423",
+        "target": "890f5053-43df-4585-877a-a4310d5fa5e9",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "e809234c-513e-4554-8ef7-7811eda64423",
+            "nodeName": "协同决策Agent",
+            "phenomena": [
+              {
+                "id": "a45112be-739b-4ebf-bd33-54758334cf15",
+                "text": "风险预警信息",
+                "order": 1
+              },
+              {
+                "id": "7ee0fef2-52c2-487d-87b6-3a61de49e488",
+                "text": "各方资源状态",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "890f5053-43df-4585-877a-a4310d5fa5e9",
+            "nodeName": "多主体决策环境",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "协同决策Agent！{风险预警信息, 各方资源状态}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "协同决策Agent！{风险预警信息, 各方资源状态}"
+            }
+          },
+          "position": {
+            "distance": 0.8082191780821918,
+            "offset": 75,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "0116259c-a2cf-422f-95e6-6256e8347664",
+      "zIndex": 0,
+      "source": {
+        "cell": "890f5053-43df-4585-877a-a4310d5fa5e9",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "890f5053-43df-4585-877a-a4310d5fa5e9",
+        "target": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "890f5053-43df-4585-877a-a4310d5fa5e9",
+            "nodeName": "多主体决策环境",
+            "phenomena": [
+              {
+                "id": "0597f1b5-ee12-4d31-8f78-5435b474157d",
+                "text": "协同优化目标",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+            "nodeName": "协同效益目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "多主体决策环境！{协同优化目标}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "多主体决策环境！{协同优化目标}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "78aaa070-4355-42e1-9cc0-9d75ef5c0bfc",
+      "zIndex": 0,
+      "source": {
+        "cell": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "e809234c-513e-4554-8ef7-7811eda64423",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+        "target": "e809234c-513e-4554-8ef7-7811eda64423",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+            "nodeName": "协同效益目标",
+            "phenomena": [
+              {
+                "id": "ee029558-4976-42aa-9133-9fea7961ec5a",
+                "text": "目标权重设定",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "e809234c-513e-4554-8ef7-7811eda64423",
+            "nodeName": "协同决策Agent",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "协同效益目标！{目标权重设定}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "协同效益目标！{目标权重设定}"
+            }
+          },
+          "position": {
+            "distance": 0.5681878672666756,
+            "offset": 2.462056705964282,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "43d20e9d-0986-42d9-93a8-2d3df05d6107",
+      "zIndex": 0,
+      "source": {
+        "cell": "e809234c-513e-4554-8ef7-7811eda64423",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "2a942890-19d2-4d5c-a609-4967cef61c22",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "e809234c-513e-4554-8ef7-7811eda64423",
+        "target": "2a942890-19d2-4d5c-a609-4967cef61c22",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "e809234c-513e-4554-8ef7-7811eda64423",
+            "nodeName": "协同决策Agent",
+            "phenomena": [
+              {
+                "id": "81161e3c-0622-4aba-92b5-168e225a7280",
+                "text": "协同算法选择",
+                "order": 1
+              },
+              {
+                "id": "dc423478-b746-47c1-ad93-7ccbac5207a1",
+                "text": "算法性能提升",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "2a942890-19d2-4d5c-a609-4967cef61c22",
+            "nodeName": "协同决策算法库",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "协同决策Agent！{协同算法选择, 算法性能提升}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "协同决策Agent！{协同算法选择, 算法性能提升}"
+            }
+          },
+          "position": {
+            "distance": 0.39436619718309857,
+            "offset": -75,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "06aa4a13-c0c0-49bc-884f-896e83b4ba62",
+      "zIndex": 0,
+      "source": {
+        "cell": "e809234c-513e-4554-8ef7-7811eda64423",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "82975623-f060-46a1-9920-5d25ff456046",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "e809234c-513e-4554-8ef7-7811eda64423",
+        "target": "82975623-f060-46a1-9920-5d25ff456046",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "e809234c-513e-4554-8ef7-7811eda64423",
+            "nodeName": "协同决策Agent",
+            "phenomena": [
+              {
+                "id": "a0ce856f-0b9f-44e8-a8fe-6cb4c62ef3ea",
+                "text": "合作协议限制",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "82975623-f060-46a1-9920-5d25ff456046",
+            "nodeName": "合作约束域",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "协同决策Agent！{合作协议限制}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "协同决策Agent！{合作协议限制}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "fa43fc2b-5732-4a47-b7ef-2c93e8320923",
+      "zIndex": 0,
+      "source": {
+        "cell": "82975623-f060-46a1-9920-5d25ff456046",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "05cdd79a-ab30-4642-ab02-5ae752ff82ee",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "82975623-f060-46a1-9920-5d25ff456046",
+        "target": "05cdd79a-ab30-4642-ab02-5ae752ff82ee",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "82975623-f060-46a1-9920-5d25ff456046",
+            "nodeName": "合作约束域",
+            "phenomena": [
+              {
+                "id": "ec4de950-2075-4e68-bd63-bf4b10d2bf19",
+                "text": "帕累托最优方案集",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "05cdd79a-ab30-4642-ab02-5ae752ff82ee",
+            "nodeName": "协同方案评估器",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "合作约束域！{帕累托最优方案集}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "合作约束域！{帕累托最优方案集}"
+            }
+          },
+          "position": {
+            "distance": 0.39436619718309857,
+            "offset": 15,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "66d04b56-6ed0-46c2-8d25-55067f0e073a",
+      "zIndex": 0,
+      "source": {
+        "cell": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "05cdd79a-ab30-4642-ab02-5ae752ff82ee",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "target": "05cdd79a-ab30-4642-ab02-5ae752ff82ee"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          }
+        }
+      },
+      "id": "113a5e53-a6e8-434b-883f-474b5a28682d",
+      "zIndex": 0,
+      "source": {
+        "cell": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "82975623-f060-46a1-9920-5d25ff456046",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "target": "82975623-f060-46a1-9920-5d25ff456046"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          }
+        }
+      },
+      "id": "bd49a61d-01e0-4ef6-8fd9-f9b16feedb9b",
+      "zIndex": 0,
+      "source": {
+        "cell": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+        "target": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 300
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "协同决策Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "756d0019-f5a4-45bc-add5-0c1e3b986096",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "148c85d5-23cb-4d8b-a650-debb1e30bd3e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "2f32fe19-c691-4e66-846e-4c9c7801ad8f",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "a0e33bfc-4840-4f7a-af94-26c6b32541da",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "e809234c-513e-4554-8ef7-7811eda64423",
+      "data": {
+        "type": "machineVariant",
+        "name": "协同决策Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 307.5,
+        "y": 435
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "多主体决策环境"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "cdc2fca1-dc3b-42b5-a2af-51a10a01aa4b",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "d27df979-6c81-4eaa-9e3e-1dfa3f7aa6ba",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "eae58720-c5dc-4cae-9402-669c853c006c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "e0e8f26f-6d14-4f71-ac97-ab96af7f1807",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "890f5053-43df-4585-877a-a4310d5fa5e9",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "多主体决策环境",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": -30,
+        "y": 420
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "协同效益目标"
+        },
+        "background": {
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a55eb6d9-c804-4e3f-9e32-58877c5c91bb",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "548e11a9-8188-46a2-a08f-812234bd4e7c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "606374ee-a6d0-4506-89b6-25a6829f72d1",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "d9e8d7c5-359c-497b-bf07-90299ba43996",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "9291bd2f-3d72-44f0-a133-2cf6b9f2a624",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "协同效益目标",
+        "variant": "G"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 307.5,
+        "y": 202.5
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "协同决策算法库"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "d5668a0a-2aa8-4427-9725-cf7b1ef36a90",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "1f253066-a99f-4a04-8d8a-ad6720e55ae7",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "0968a15b-9d0a-4d33-bf0d-5a0d5534a80c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "01b4755e-65a1-427f-ad2f-f96de1a00e99",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "2a942890-19d2-4d5c-a609-4967cef61c22",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "协同决策算法库",
+        "variant": "K"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": -30,
+        "y": 300
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "合作约束域"
+        },
+        "background": {
+          "fill": "#eaf8f0"
+        },
+        "border": {
+          "stroke": "#39b47b"
+        },
+        "badge": {
+          "stroke": "#39b47b",
+          "fill": "#eaf8f0"
+        },
+        "badgeText": {
+          "text": "B"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2d3436e9-52e3-465f-b0f8-d6b3cf3a18ac",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "f01934c6-7ce6-4f3c-b23f-892e325fab28",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "ad0820d7-c0ed-4859-b39d-6e63aed1ac12",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "954f6b5e-ad89-42f0-9176-0bef999ceff6",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "82975623-f060-46a1-9920-5d25ff456046",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "合作约束域",
+        "variant": "B"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": -37.5,
+        "y": 202.5
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 76.5,
+          "text": "协同方案评估器",
+          "textWrap": {
+            "width": 101
+          }
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "fd3ef6d9-8cd9-443f-aff4-38625c3181a5",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "002347aa-82f1-49d8-bb79-45dba84e0b4a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "9b157f5f-3121-4cec-a9e3-a0226eb58501",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "aae74809-3f2b-487e-9559-6e030d6b4f83",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "05cdd79a-ab30-4642-ab02-5ae752ff82ee",
+      "data": {
+        "type": "design",
+        "name": "协同方案评估器"
+      },
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": -225,
+        "y": 292.5
+      },
+      "size": {
+        "width": 135,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应在合作约束下生成多方共赢的协同决策方案"
+        },
+        "background": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f6be82ed-5b48-4180-8456-b8134e564f38",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "0bcb51b0-576e-417d-8c8f-64cbbd5bfc6d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "b3f7cd9b-cbd7-4d84-b9b9-8a47971792ef",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "b99c8cc1-8496-4a35-86aa-9defceae9322",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "0ef2b8fc-6c5b-4bb8-90bf-18f97cd1dd9b",
+      "data": {
+        "type": "requirement",
+        "name": "系统应在合作约束下生成多方共赢的协同决策方案"
+      },
+      "zIndex": 7
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:30:48.269Z",
+    "app": "problem-graph-tool"
+  }
+}

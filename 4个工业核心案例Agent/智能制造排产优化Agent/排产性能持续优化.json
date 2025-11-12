@@ -1,0 +1,1300 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "5683440a-46cb-4ad7-a0b9-80020ac208b9",
+      "zIndex": 0,
+      "data": {
+        "source": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "target": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "7655a292-ec20-4045-a92a-30b75df22a10",
+            "nodeName": "性能优化Agent",
+            "phenomena": [
+              {
+                "id": "a0f9e03c-1392-4429-bd76-071c36586ff4",
+                "text": "历史排产数据",
+                "order": 1
+              },
+              {
+                "id": "83a0b1a3-ab8b-466d-bbaa-f872f0f5a192",
+                "text": "执行结果",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+            "nodeName": "运营数据环境",
+            "phenomena": [
+              {
+                "id": "409acbaf-5645-4638-a679-d2310bd77b40",
+                "text": "多维度性能数据",
+                "order": 1
+              }
+            ]
+          },
+          "displayMode": "detailed"
+        },
+        "label": "性能优化Agent！{历史排产数据, 执行结果}\n运营数据环境！{多维度性能数据}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "性能优化Agent！{历史排产数据, 执行结果}\n运营数据环境！{多维度性能数据}"
+            }
+          },
+          "position": {
+            "distance": 0.7184466019417476,
+            "offset": -45,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "selector": "> rect:nth-child(2)",
+        "anchor": {
+          "name": "topLeft",
+          "args": {
+            "dx": "50%",
+            "dy": "50%",
+            "rotate": true
+          }
+        }
+      },
+      "target": {
+        "cell": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+        "selector": "> rect:nth-child(2)",
+        "anchor": {
+          "name": "topLeft",
+          "args": {
+            "dx": "50%",
+            "dy": "50%",
+            "rotate": true
+          }
+        }
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "eb2e69cf-668a-424c-a5d3-a85cc90e1899",
+      "zIndex": 0,
+      "data": {
+        "source": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "target": "1498f50b-14b6-4f83-a5a3-38d4f71d6722",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "7655a292-ec20-4045-a92a-30b75df22a10",
+            "nodeName": "性能优化Agent",
+            "phenomena": [
+              {
+                "id": "f5d66f7a-5ad7-46c6-949b-78e73a18ecf7",
+                "text": "性能差距识别",
+                "order": 1
+              },
+              {
+                "id": "f3aa6ffe-b7ec-4bb8-b305-b98b09b348cc",
+                "text": "知识沉淀与演化",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "1498f50b-14b6-4f83-a5a3-38d4f71d6722",
+            "nodeName": "排产经验知识图谱",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "性能优化Agent！{性能差距识别, 知识沉淀与演化}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "性能优化Agent！{性能差距识别, 知识沉淀与演化}"
+            }
+          },
+          "position": {
+            "distance": 0.5,
+            "offset": 75,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "1498f50b-14b6-4f83-a5a3-38d4f71d6722",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "8ab2743f-5c9b-4397-a0ee-46d621cc0029",
+      "zIndex": 0,
+      "data": {
+        "source": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "target": "a8f97089-5569-4348-8722-8e85449a187e",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "7655a292-ec20-4045-a92a-30b75df22a10",
+            "nodeName": "性能优化Agent",
+            "phenomena": [
+              {
+                "id": "0c8c79be-e3b8-4539-841a-7b6d45f03175",
+                "text": "改进进度指标",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "a8f97089-5569-4348-8722-8e85449a187e",
+            "nodeName": "持续改进目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "性能优化Agent！{改进进度指标}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "性能优化Agent！{改进进度指标}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "7655a292-ec20-4045-a92a-30b75df22a10",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "a8f97089-5569-4348-8722-8e85449a187e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "8a78a080-e8aa-4d4f-8bf9-5db95962fd31",
+      "zIndex": 0,
+      "data": {
+        "source": "a8f97089-5569-4348-8722-8e85449a187e",
+        "target": "8a89236f-a473-4800-88c1-151d86b883b5",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "a8f97089-5569-4348-8722-8e85449a187e",
+            "nodeName": "持续改进目标",
+            "phenomena": [
+              {
+                "id": "525cf6dd-c7fe-47a2-a9ba-8b865234f3a4",
+                "text": "模型参数调整",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "8a89236f-a473-4800-88c1-151d86b883b5",
+            "nodeName": "自适应排产引擎",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "持续改进目标！{模型参数调整}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "持续改进目标！{模型参数调整}"
+            }
+          },
+          "position": {
+            "distance": 0.42718446601941745,
+            "offset": 30,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "a8f97089-5569-4348-8722-8e85449a187e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "8a89236f-a473-4800-88c1-151d86b883b5",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "0d46a238-e3aa-419f-8301-b966a0600250",
+      "zIndex": 0,
+      "data": {
+        "source": "d1f90d05-3d57-48eb-8c95-297bc8fbd0cf",
+        "target": "8a89236f-a473-4800-88c1-151d86b883b5"
+      },
+      "source": {
+        "cell": "d1f90d05-3d57-48eb-8c95-297bc8fbd0cf",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "8a89236f-a473-4800-88c1-151d86b883b5",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          },
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "3eabf193-562c-4dcb-8758-846da2f98f5a",
+      "zIndex": 0,
+      "data": {
+        "source": "d1f90d05-3d57-48eb-8c95-297bc8fbd0cf",
+        "target": "a8f97089-5569-4348-8722-8e85449a187e"
+      },
+      "source": {
+        "cell": "d1f90d05-3d57-48eb-8c95-297bc8fbd0cf",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "a8f97089-5569-4348-8722-8e85449a187e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "c71b4cee-d4b1-4940-990a-12a5204ba657",
+      "zIndex": 0,
+      "data": {
+        "source": "8a89236f-a473-4800-88c1-151d86b883b5",
+        "target": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "8a89236f-a473-4800-88c1-151d86b883b5",
+            "nodeName": "自适应排产引擎",
+            "phenomena": [
+              {
+                "id": "98ec0394-faf5-4602-bf91-9d6174fe0dc6",
+                "text": "A/B测试结果",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+            "nodeName": "运营数据环境",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "自适应排产引擎！{A/B测试结果}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "自适应排产引擎！{A/B测试结果}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "8a89236f-a473-4800-88c1-151d86b883b5",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 360
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "性能优化Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "4e5e4a34-de6f-412e-b83f-a2402c1d0318",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "612ca785-37a8-4b63-a454-84a76b42e619",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "a2c8f015-951b-42e8-bc13-6adf3d33fa58",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "3356d36a-7261-4c4d-b2dd-64ee9ad6105f",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "7655a292-ec20-4045-a92a-30b75df22a10",
+      "data": {
+        "type": "machineVariant",
+        "name": "性能优化Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 315,
+        "y": 195
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "运营数据环境"
+        },
+        "background": {
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "0f2316f4-aab7-4cc0-a90c-d29c2fb7ec16",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "14ab57cc-1581-40e3-a810-43bbe7c126d8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "ba137e4a-61ea-4fb0-b37b-239277ac69dd",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "2a3bb274-8639-4126-9f0f-6747c1c36ed8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "553a42ef-c0a2-4c07-a554-fdd442f23414",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "运营数据环境",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 300,
+        "y": 450
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "排产经验知识图谱"
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "x": 140,
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "083486c4-e244-4549-80bc-6f8251afcb10",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "d797ab0c-aaeb-425a-8b20-19fd441fb923",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "bf747380-3571-4335-a3d2-899a9c24e315",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "13817955-f7c9-44ca-bc75-7b5ab6952f42",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "1498f50b-14b6-4f83-a5a3-38d4f71d6722",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "排产经验知识图谱",
+        "variant": "K"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": -30,
+        "y": 360
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "持续改进目标"
+        },
+        "background": {
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "f288e7bf-fab4-4468-9019-c35f0cc20d2b",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "cd65ea11-4e8f-40cb-b6b1-b61c6bd05f23",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "499927f3-3f79-4c37-8fc7-9ab0d93f6e22",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "87534aac-a7ed-49de-b6c4-ae8efc416598",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "a8f97089-5569-4348-8722-8e85449a187e",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "持续改进目标",
+        "variant": "G"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": -37.5,
+        "y": 195
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 76.5,
+          "text": "自适应排产引擎",
+          "textWrap": {
+            "width": 101
+          }
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "28affecd-3382-41b5-92dc-7e39ba5eeef7",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "53ed6b11-41ed-41c6-b09b-5a4072a063ae",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "acb4c50c-ce94-4732-aa96-542595d44722",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "a90fd99b-41b6-4df2-95c0-ebb83bc8ab78",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "8a89236f-a473-4800-88c1-151d86b883b5",
+      "data": {
+        "type": "design",
+        "name": "自适应排产引擎"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 150,
+        "y": 300
+      },
+      "size": {
+        "width": 135,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应通过持续学习，季度排产准确率提升不低于5%"
+        },
+        "background": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "8bf145bf-25a6-4ece-9eb8-de40e2c6d416",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "f6615622-8be6-4b37-be9d-8873cfc0a92a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "40ec7742-4b08-4677-a863-d6475e8f8973",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "2d1027b5-cfe5-4104-b787-a02af9218ab9",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "d1f90d05-3d57-48eb-8c95-297bc8fbd0cf",
+      "data": {
+        "type": "requirement",
+        "name": "系统应通过持续学习，季度排产准确率提升不低于5%"
+      },
+      "zIndex": 6
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:49:59.660Z",
+    "app": "problem-graph-tool"
+  }
+}

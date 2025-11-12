@@ -1,0 +1,1560 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "631b7447-be85-4796-b110-af35a70f7422",
+      "zIndex": 0,
+      "source": {
+        "cell": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "target": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+            "nodeName": "风险识别Agent",
+            "phenomena": [
+              {
+                "id": "b77398fd-7fa9-4a15-936b-e8be9128082e",
+                "text": "供应链态势数据",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+            "nodeName": "供应链风险环境",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险识别Agent！{供应链态势数据}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险识别Agent！{供应链态势数据}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "b187a11d-9321-4e9c-b239-dc6a92854549",
+      "zIndex": 0,
+      "source": {
+        "cell": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+        "target": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+            "nodeName": "供应链风险环境",
+            "phenomena": [
+              {
+                "id": "0c68116b-bd27-4dab-9163-400583716998",
+                "text": "风险模式匹配",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+            "nodeName": "风险知识图谱",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "供应链风险环境！{风险模式匹配}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "供应链风险环境！{风险模式匹配}"
+            }
+          },
+          "position": {
+            "distance": 0.6408029131605603,
+            "offset": 12.804968238070158,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "253e8675-9c51-4fb1-bd64-386daad1b993",
+      "zIndex": 0,
+      "source": {
+        "cell": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "target": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+            "nodeName": "风险识别Agent",
+            "phenomena": [
+              {
+                "id": "97324c13-5498-4f2a-a688-ea7c9e483c37",
+                "text": "新风险模式添加",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+            "nodeName": "风险知识图谱",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险识别Agent！{新风险模式添加}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险识别Agent！{新风险模式添加}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "01f82ad6-3e9a-47b4-9222-1b938c442392",
+      "zIndex": 0,
+      "source": {
+        "cell": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "5d57e544-8a7a-4892-b45c-f8937842addf",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "target": "5d57e544-8a7a-4892-b45c-f8937842addf",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+            "nodeName": "风险识别Agent",
+            "phenomena": [
+              {
+                "id": "49b9f89c-26c1-47b9-80f5-d1e39ea37d37",
+                "text": "风险概率计算",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "5d57e544-8a7a-4892-b45c-f8937842addf",
+            "nodeName": "风险容忍度阈值",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险识别Agent！{风险概率计算}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险识别Agent！{风险概率计算}"
+            }
+          },
+          "position": {
+            "distance": 0.7108433734939759,
+            "offset": 15,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "19c7a4bf-c717-4654-9cc6-766780a65bf2",
+      "zIndex": 0,
+      "source": {
+        "cell": "5d57e544-8a7a-4892-b45c-f8937842addf",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5d57e544-8a7a-4892-b45c-f8937842addf",
+        "target": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5d57e544-8a7a-4892-b45c-f8937842addf",
+            "nodeName": "风险容忍度阈值",
+            "phenomena": [
+              {
+                "id": "aea6b032-0e4a-477f-bf76-443e2c2937ba",
+                "text": "风险等级评定",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+            "nodeName": "风险识别准确性目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险容忍度阈值！{风险等级评定}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险容忍度阈值！{风险等级评定}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "11d7ea30-32ff-4ad8-b6f7-81789210d963",
+      "zIndex": 0,
+      "source": {
+        "cell": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "target": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+            "nodeName": "风险识别Agent",
+            "phenomena": [
+              {
+                "id": "0f3e8f8e-3ef2-4c8e-bcb1-c948a1f39d66",
+                "text": "预警效果验证",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+            "nodeName": "风险识别准确性目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险识别Agent！{预警效果验证}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险识别Agent！{预警效果验证}"
+            }
+          },
+          "position": {
+            "distance": 0.46739815183278866,
+            "offset": 10.24982352582487,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": ""
+        }
+      },
+      "id": "00070596-bacb-4107-9b0f-b4d102ab21a0",
+      "zIndex": 0,
+      "source": {
+        "cell": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "86331ae3-62ed-433a-bbdc-dfd70f702403",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+        "target": "86331ae3-62ed-433a-bbdc-dfd70f702403",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+            "nodeName": "风险识别Agent",
+            "phenomena": [
+              {
+                "id": "68aa71bd-af65-4d46-9715-e5270b0a0345",
+                "text": "风险预警报告生成",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "86331ae3-62ed-433a-bbdc-dfd70f702403",
+            "nodeName": "风险预警发布器",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "风险识别Agent！{风险预警报告生成}"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "风险识别Agent！{风险预警报告生成}"
+            }
+          },
+          "position": {
+            "distance": 0.673929199100777,
+            "offset": -34.020601638375,
+            "angle": 0
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "0fc2b208-7573-4c28-a918-939a40a18a90",
+      "zIndex": 0,
+      "source": {
+        "cell": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "86331ae3-62ed-433a-bbdc-dfd70f702403",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "target": "86331ae3-62ed-433a-bbdc-dfd70f702403"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          }
+        }
+      },
+      "id": "06495f06-9814-49e3-a227-a03a8e7ebd3a",
+      "zIndex": 0,
+      "source": {
+        "cell": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "5d57e544-8a7a-4892-b45c-f8937842addf",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "target": "5d57e544-8a7a-4892-b45c-f8937842addf"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "strokeDasharray": "5 5",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          }
+        }
+      },
+      "id": "2a762c01-7e79-47f0-8269-cdb74c7988b7",
+      "zIndex": 0,
+      "source": {
+        "cell": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+        "selector": "> rect:nth-child(2)"
+      },
+      "data": {
+        "source": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+        "target": "459c0b2e-4c02-4caf-af33-8ae66408696e"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 315,
+        "y": 315
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "风险识别Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "d3913f20-4d5f-4908-9000-de10f049370d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "e5716557-dd97-4dfc-8614-7a3a752eb033",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "866a6f14-7752-4496-a16d-c8f2395274ee",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "ac3d18f8-661b-4bbe-a099-6aed947f91c4",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "5060b8be-c852-40e3-8d2b-89bdc24bf8b8",
+      "data": {
+        "type": "machineVariant",
+        "name": "风险识别Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 322.5,
+        "y": 420
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "供应链风险环境"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "55c73d15-9de4-48b9-99e4-fb4309280db5",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "2f64e4e7-a7d3-41a4-9103-a9e706c2ef54",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "e71840cc-5482-44a3-b85b-1644dec3b4e8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "a0cd51bf-8e99-46bc-b5a3-b86531d6ad56",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "6d6525c9-8376-4a57-8ca8-4e72544f4e47",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "供应链风险环境",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 697.5,
+        "y": 315
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "风险知识图谱"
+        },
+        "background": {
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b74ac75f-8a66-450b-b758-4842b08dad39",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "73896b04-2419-4a65-9cd8-0b8c89b54dba",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "d4b855b5-a769-469a-b14c-6f20574faad3",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "e3e0ee96-854e-4127-9080-85a2c1435ceb",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "2a07517d-74b7-4f4b-bfc6-573848a99a01",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "风险知识图谱",
+        "variant": "K"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 322.5,
+        "y": 170
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "风险容忍度阈值"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#ffe6f2"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#d93a8a"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#d93a8a",
+          "fill": "#ffe6f2"
+        },
+        "badgeText": {
+          "x": 125
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "03f4760d-9d4b-4d66-aeb7-4c135ca3f266",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "a493a283-5c4b-45e7-892a-af93b09f9984",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "1172dfa0-4b72-469b-8010-3105c291122f",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "65ff3386-1b5b-40e4-8a7f-ea2e0ed16431",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "5d57e544-8a7a-4892-b45c-f8937842addf",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "风险容忍度阈值",
+        "variant": "C"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 675,
+        "y": 170
+      },
+      "size": {
+        "width": 165,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "风险识别准确性目标"
+        },
+        "background": {
+          "width": 165,
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "width": 165,
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "x": 145,
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "x": 155,
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "1ed5bd28-c551-4bdc-b014-97d81ee45ff9",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "1234d001-9385-46b1-a99e-cd89f42aeed9",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "492287f7-9cd2-49d5-aae0-76a00a0f28b1",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "e45dce02-d44e-48d0-9181-73f738abc6d3",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "459c0b2e-4c02-4caf-af33-8ae66408696e",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "风险识别准确性目标",
+        "variant": "G"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 132,
+        "y": 170
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 76.5,
+          "text": "风险预警发布器",
+          "textWrap": {
+            "width": 101
+          }
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "92b450f0-bdb2-4296-a810-4d05c7912383",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "fcd894b4-c524-4afd-9d5b-61a51690345a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "3be85767-c731-4491-821b-03b5eb076cb6",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "3dfce3ac-1b64-4e38-bd6d-712b08234027",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "86331ae3-62ed-433a-bbdc-dfd70f702403",
+      "data": {
+        "type": "design",
+        "name": "风险预警发布器"
+      },
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 330,
+        "y": 60
+      },
+      "size": {
+        "width": 120,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应准确识别供应链风险并评估其影响程度"
+        },
+        "background": {
+          "cy": 37.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cy": 37.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "0acb04f3-25f5-4823-b128-b0b0b25ec26b",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "d6c77da9-3018-422d-9af3-cbe0b7003375",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "814a52c4-d216-4c62-b49e-a47859031814",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "995c5d1b-a054-46ab-aa96-009216a5ebe0",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "13d79563-b97d-4b82-a7f1-14b21b6c0879",
+      "data": {
+        "type": "requirement",
+        "name": "系统应准确识别供应链风险并评估其影响程度"
+      },
+      "zIndex": 7
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:18:29.990Z",
+    "app": "problem-graph-tool"
+  }
+}
