@@ -13,13 +13,24 @@
 - **Extended Meta-Model**: Incorporates intelligent agent domain, environment domain, knowledge domain, and goal domain
 - **Four Core Problem Patterns**:
   - Perception-Decision-Execution (PDE) Pattern
+ ![Uploading 四种模式_01.jpg…]()
+
   - Knowledge Acquisition and Learning Pattern
+    ![四种模式_01(1)](https://github.com/user-attachments/assets/651aa824-caf5-47c5-94eb-5806a4a148e2)
+
   - Goal-Oriented Behavior Pattern
+ 
+    ![四种模式_01(2)](https://github.com/user-attachments/assets/ec7e5fe3-7ac8-4541-84ad-9cea515185b3)
+
   - Multi-Agent Collaboration Pattern
+ 
+   ![Uploading 四种模式_01(2).jpg…]()
+
 - **Graphical Modeling Platform**: Visual requirements modeling tool with standardized notation system
 - **Industrial Pattern Library**: Reusable problem patterns for common industrial scenarios
 
 ## 🏗️ Architecture
+![面向问题的智能Agent需求建模方法-图(1)_01(1)](https://github.com/user-attachments/assets/d6c6fdfc-9f15-41b7-80d8-96fba1677bd1)
 
 
 ## 🔬 Methodology
@@ -113,6 +124,9 @@ The methodology was validated through a comprehensive case study of an e-commerc
 - ✅ Systematic requirements analysis process
 - ✅ Reduced transformation cycle from requirements to design
 - ✅ Improved requirement completeness and accuracy
+
+![00e98020cf3ddfd1e4dca83be3f218cc](https://github.com/user-attachments/assets/6eb7b3a8-c3dd-4c1f-95e3-3f4e68badcad)
+
 
 ## 🛠️ Installation & Usage
 
