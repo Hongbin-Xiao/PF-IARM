@@ -13,7 +13,8 @@
 - **Extended Meta-Model**: Incorporates intelligent agent domain, environment domain, knowledge domain, and goal domain
 - **Four Core Problem Patterns**:
   - Perception-Decision-Execution (PDE) Pattern
- ![Uploading 四种模式_01.jpg…]()
+ ![四种模式_01](https://github.com/user-attachments/assets/0be80675-f831-467a-babd-f0fbe15440d2)
+
 
   - Knowledge Acquisition and Learning Pattern
     ![四种模式_01(1)](https://github.com/user-attachments/assets/651aa824-caf5-47c5-94eb-5806a4a148e2)
@@ -24,7 +25,8 @@
 
   - Multi-Agent Collaboration Pattern
  
-   ![Uploading 四种模式_01(2).jpg…]()
+  ![四种模式_01(3)](https://github.com/user-attachments/assets/2339303d-213e-4a11-809b-1a00b68cf9e9)
+
 
 - **Graphical Modeling Platform**: Visual requirements modeling tool with standardized notation system
 - **Industrial Pattern Library**: Reusable problem patterns for common industrial scenarios
