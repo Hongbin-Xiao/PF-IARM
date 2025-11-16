@@ -1,0 +1,1743 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "2659271c-076f-432c-8eca-9fca923c5191",
+      "zIndex": 0,
+      "data": {
+        "source": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "target": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+            "nodeName": "数据融合Agent",
+            "phenomena": [
+              {
+                "id": "519f848e-a55f-46d3-a2d3-fdd89029a124",
+                "text": "实时数据流",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+            "nodeName": "车间物理环境",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "数据融合Agent！{实时数据流}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "数据融合Agent！{实时数据流}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "715879e7-fa03-43f7-ba35-f3824d99da3b",
+      "zIndex": 0,
+      "data": {
+        "source": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+        "target": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+            "nodeName": "车间物理环境",
+            "phenomena": [
+              {
+                "id": "37f9d5ee-b9e5-42ab-9d5e-9fe59c625d82",
+                "text": "数据采集指令",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+            "nodeName": "异构数据源",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "车间物理环境！{数据采集指令}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "车间物理环境！{数据采集指令}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "5a284158-d48d-4a7f-bd47-3fbaadd1fa25",
+      "zIndex": 0,
+      "data": {
+        "source": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+        "target": "734285a4-1c5c-4488-b561-5b96a061ea48",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+            "nodeName": "异构数据源",
+            "phenomena": [
+              {
+                "id": "c4ec0506-0477-40c5-ae5e-f6fe094214b7",
+                "text": "标准化数据流",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "734285a4-1c5c-4488-b561-5b96a061ea48",
+            "nodeName": "数据质量监控器",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "异构数据源！{标准化数据流}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "异构数据源！{标准化数据流}"
+            }
+          },
+          "position": {
+            "distance": 0.5,
+            "offset": -22.5,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "734285a4-1c5c-4488-b561-5b96a061ea48",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "14f067bd-3844-49f7-952b-503e28e475d7",
+      "zIndex": 0,
+      "data": {
+        "source": "734285a4-1c5c-4488-b561-5b96a061ea48",
+        "target": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "734285a4-1c5c-4488-b561-5b96a061ea48",
+            "nodeName": "数据质量监控器",
+            "phenomena": [
+              {
+                "id": "763759ae-b2a6-4fe7-ae19-8c0f31141998",
+                "text": "清洗后数据",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+            "nodeName": "数据融合Agent",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "数据质量监控器！{清洗后数据}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "数据质量监控器！{清洗后数据}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "734285a4-1c5c-4488-b561-5b96a061ea48",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "14d81f89-b8b6-4ad3-826a-ed327f39944c",
+      "zIndex": 0,
+      "data": {
+        "source": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "target": "d248560e-6ca9-4a4e-9c78-10361b490c69",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+            "nodeName": "数据融合Agent",
+            "phenomena": [
+              {
+                "id": "031ddcba-e0c0-44fe-a967-d1cc97d855c1",
+                "text": "数据质量规则",
+                "order": 1
+              },
+              {
+                "id": "552be399-1d18-4b1c-8d29-e6bb184a3063",
+                "text": "规则优化反馈",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "d248560e-6ca9-4a4e-9c78-10361b490c69",
+            "nodeName": "数据质量规则库",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "数据融合Agent！{数据质量规则, 规则优化反馈}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "数据融合Agent！{数据质量规则, 规则优化反馈}"
+            }
+          },
+          "position": {
+            "distance": 0.9049907203746949,
+            "offset": 23.193985157349328,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "d248560e-6ca9-4a4e-9c78-10361b490c69",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "9ccabcc4-292b-4c75-9119-a5f785c1774e",
+      "zIndex": 0,
+      "data": {
+        "source": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "target": "4b0fa06c-0fd8-4782-b393-56006863c089",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+            "nodeName": "数据融合Agent",
+            "phenomena": [
+              {
+                "id": "c5211ed2-2c16-466f-bbcd-8f0a044bb9ca",
+                "text": "融合数据写入",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "4b0fa06c-0fd8-4782-b393-56006863c089",
+            "nodeName": "排产决策数据库",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "数据融合Agent！{融合数据写入}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "数据融合Agent！{融合数据写入}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "4b0fa06c-0fd8-4782-b393-56006863c089",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "a6508155-be43-409c-b2c6-21eac0d761ff",
+      "zIndex": 0,
+      "data": {
+        "source": "4b0fa06c-0fd8-4782-b393-56006863c089",
+        "target": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "4b0fa06c-0fd8-4782-b393-56006863c089",
+            "nodeName": "排产决策数据库",
+            "phenomena": [
+              {
+                "id": "7b554590-143b-422e-bfde-cdab51d79810",
+                "text": "一致性数据视图",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+            "nodeName": "数据完整性目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "排产决策数据库！{一致性数据视图}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "排产决策数据库！{一致性数据视图}"
+            }
+          },
+          "position": {
+            "distance": 0.2876868246034542,
+            "offset": -12.060633510998843,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "4b0fa06c-0fd8-4782-b393-56006863c089",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "6151d691-0b22-4353-b5e4-47607db114fb",
+      "zIndex": 0,
+      "data": {
+        "source": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "target": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+            "nodeName": "数据融合Agent",
+            "phenomena": [
+              {
+                "id": "ac8c7f9a-6fdf-441b-ab9e-e72c19fbb0e4",
+                "text": "目标达成状态",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+            "nodeName": "数据完整性目标",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "数据融合Agent！{目标达成状态}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "数据融合Agent！{目标达成状态}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "6783382d-ac61-4f4e-8bf1-6f87173c2eb3",
+      "zIndex": 0,
+      "data": {
+        "source": "b0f411ef-4c22-4bca-b8bd-fdc1cb2285c7",
+        "target": "4b0fa06c-0fd8-4782-b393-56006863c089"
+      },
+      "source": {
+        "cell": "b0f411ef-4c22-4bca-b8bd-fdc1cb2285c7",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "4b0fa06c-0fd8-4782-b393-56006863c089",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          },
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "734a1909-06ca-405c-a747-f2b423574322",
+      "zIndex": 0,
+      "data": {
+        "source": "b0f411ef-4c22-4bca-b8bd-fdc1cb2285c7",
+        "target": "5591bfb5-b82c-49fe-b368-21cf2a938d92"
+      },
+      "source": {
+        "cell": "b0f411ef-4c22-4bca-b8bd-fdc1cb2285c7",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 165,
+        "y": 300
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "数据融合Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "726d29e3-aa40-4694-bd96-d3c7b0d47c3e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "45943180-64ed-4085-8766-6d146595b96e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "7d5b5b40-bdc3-4dab-bc1a-4e30f093b0d3",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "06a38587-f849-44ed-9ea8-590ba8ed238e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "9f414a17-3637-4095-a87f-a45bbea2d7ba",
+      "data": {
+        "type": "machineVariant",
+        "name": "数据融合Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 180,
+        "y": 390
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "车间物理环境"
+        },
+        "background": {
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "ac6bb169-d884-414d-8c84-b3e4e520faef",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "b3d774b9-7b26-48b2-98c4-4fff77934fc5",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "cf25fb7b-ff4e-4dbe-a393-8219a864a351",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "9fdb646f-dfb4-47ac-bbfb-b18ede6a5ab8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "41f8d651-d332-4daa-bbc0-25e10dfe9a6b",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "车间物理环境",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 532.5,
+        "y": 390
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "异构数据源"
+        },
+        "background": {
+          "fill": "#f7f3d9"
+        },
+        "border": {
+          "stroke": "#8a7a2a"
+        },
+        "badge": {
+          "stroke": "#8a7a2a",
+          "fill": "#f7f3d9"
+        },
+        "badgeText": {
+          "text": "X"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "5386f493-735f-4f11-be0f-7f1260b0b82d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "e2b72127-7c40-4344-98c0-12ad5b05fa94",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "9e33501c-ca36-4ace-9565-44ef1b099395",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "071dd439-e9f0-4a43-9f75-765119588995",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "5fb43ff9-0de2-4b40-a037-e612bc0a6afa",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "异构数据源",
+        "variant": "X"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 525,
+        "y": 300
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 76.5,
+          "text": "数据质量监控器",
+          "textWrap": {
+            "width": 101
+          }
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "7418c6c2-b59a-4af4-8cbe-4339123778ab",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "822eac42-c45c-4dc1-997f-51b21d572e25",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "0f5d75a2-5a4c-4c67-ba8e-f65843ae8f83",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "f26ac7a4-ed0f-462b-939d-478453a54ec0",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "734285a4-1c5c-4488-b561-5b96a061ea48",
+      "data": {
+        "type": "design",
+        "name": "数据质量监控器"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 525,
+        "y": 210
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "数据质量规则库"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a9b399c1-0f52-4cfa-a785-30a381e38a40",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "513c5503-a355-4716-b36b-0bd470e7a744",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "1c84a4bc-16d0-4798-8326-9f2904500e49",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "ae0c95b4-497a-4b3c-a69f-9d4d3dcdd5ab",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "d248560e-6ca9-4a4e-9c78-10361b490c69",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "数据质量规则库",
+        "variant": "K"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": -180,
+        "y": 300
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 76.5,
+          "text": "排产决策数据库",
+          "textWrap": {
+            "width": 101
+          }
+        },
+        "background": {
+          "width": 135,
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "c1a86fe9-3414-4d36-b647-f2f555908bc6",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "a789d4cb-dcba-425f-b9c1-b071199be3ad",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "97828099-0c0b-49dd-b8b7-e9923cafc06f",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "ff9e478f-0391-4c47-9970-de46f85fc7c8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "4b0fa06c-0fd8-4782-b393-56006863c089",
+      "data": {
+        "type": "design",
+        "name": "排产决策数据库"
+      },
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 172.5,
+        "y": 210
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "数据完整性目标"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "cad97760-3b5f-4bd9-9f4b-621efc7be307",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "e2f5547d-d71c-4e2f-bc0d-e31867272d9d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "6071c120-08d7-4a8c-b98e-a3909fa90a3d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "0b8ce1cc-f9eb-48c8-9573-d26abab1ae07",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "5591bfb5-b82c-49fe-b368-21cf2a938d92",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "数据完整性目标",
+        "variant": "G"
+      },
+      "zIndex": 7
+    },
+    {
+      "position": {
+        "x": -180,
+        "y": 202.5
+      },
+      "size": {
+        "width": 135,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应在5秒内提供完整率99%以上的融合数据视图"
+        },
+        "background": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "6c0a4ab9-0eaf-488a-86c7-74f1dff97971",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "54c7f381-342e-4202-bf3d-73304543df40",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "da90ba65-14a6-43a5-a1ba-b4768ee070fa",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "17e4e121-f657-4bff-ac4c-0e0eceba9447",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "b0f411ef-4c22-4bca-b8bd-fdc1cb2285c7",
+      "data": {
+        "type": "requirement",
+        "name": "系统应在5秒内提供完整率99%以上的融合数据视图"
+      },
+      "zIndex": 8
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:48:09.060Z",
+    "app": "problem-graph-tool"
+  }
+}

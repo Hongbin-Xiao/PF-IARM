@@ -1,0 +1,1292 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "335b76fa-27c4-4f2f-a047-d8073fdbb4db",
+      "zIndex": 0,
+      "data": {
+        "source": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "target": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+            "nodeName": "异常处理Agent",
+            "phenomena": [
+              {
+                "id": "1468a973-ec9f-4400-8a36-36b30a91758b",
+                "text": "复杂异常信号",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+            "nodeName": "异常生产环境",
+            "phenomena": [
+              {
+                "id": "dcbb5ff1-cd6e-4eb3-912a-a9d1e1e02aee",
+                "text": "异常上下文信息",
+                "order": 1
+              }
+            ]
+          },
+          "displayMode": "detailed"
+        },
+        "label": "异常处理Agent！{复杂异常信号}\n异常生产环境！{异常上下文信息}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "异常处理Agent！{复杂异常信号}\n异常生产环境！{异常上下文信息}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "ca1959c8-595f-431c-845c-01cfdfb0f40f",
+      "zIndex": 0,
+      "data": {
+        "source": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "target": "3fdc1bba-86bc-4460-938d-9f96a53039c3",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+            "nodeName": "异常处理Agent",
+            "phenomena": [
+              {
+                "id": "96b39256-4638-42c5-949e-4812c5e5ab72",
+                "text": "异常分类知识",
+                "order": 1
+              },
+              {
+                "id": "bbbf052f-d866-4714-9957-4b67972b8ed1",
+                "text": "新异常模式记录",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "3fdc1bba-86bc-4460-938d-9f96a53039c3",
+            "nodeName": "异常分类知识库",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "异常处理Agent！{异常分类知识, 新异常模式记录}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "异常处理Agent！{异常分类知识, 新异常模式记录}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "3fdc1bba-86bc-4460-938d-9f96a53039c3",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "92cda2f0-a4f6-4043-a75b-e06f2f1157f8",
+      "zIndex": 0,
+      "data": {
+        "source": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "target": "ec26b171-59f5-4e0c-9914-03443d266188",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+            "nodeName": "异常处理Agent",
+            "phenomena": [
+              {
+                "id": "46abcf34-e3cb-44bc-a52f-b86d077b091e",
+                "text": "协同效率指标",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "ec26b171-59f5-4e0c-9914-03443d266188",
+            "nodeName": "协同效率目标",
+            "phenomena": [
+              {
+                "id": "676524f3-c05e-4b8a-b46b-4dfdf36efcb0",
+                "text": "协同请求与方案推荐",
+                "order": 1
+              }
+            ]
+          },
+          "displayMode": "detailed"
+        },
+        "label": "异常处理Agent！{协同效率指标}\n协同效率目标！{协同请求与方案推荐}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "异常处理Agent！{协同效率指标}\n协同效率目标！{协同请求与方案推荐}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "ec26b171-59f5-4e0c-9914-03443d266188",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "bd00e5bb-eda8-4f7d-9d96-dab3681a0024",
+      "zIndex": 0,
+      "data": {
+        "source": "594de177-5398-4c7a-9aba-b687a64a44ac",
+        "target": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "594de177-5398-4c7a-9aba-b687a64a44ac",
+            "nodeName": "协同决策终端",
+            "phenomena": [
+              {
+                "id": "8ad6f848-1853-4d6c-84d4-a52cae43d5c7",
+                "text": "最终方案实施",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+            "nodeName": "异常生产环境",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "协同决策终端！{最终方案实施}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "协同决策终端！{最终方案实施}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "594de177-5398-4c7a-9aba-b687a64a44ac",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "07a274e9-e2c3-4eb6-9fbe-98667ff9026f",
+      "zIndex": 0,
+      "data": {
+        "source": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "target": "594de177-5398-4c7a-9aba-b687a64a44ac",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+            "nodeName": "异常处理Agent",
+            "phenomena": [
+              {
+                "id": "c9d1ea3d-1d4d-454d-97af-67616f7b48ed",
+                "text": "确认/修改决策",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "594de177-5398-4c7a-9aba-b687a64a44ac",
+            "nodeName": "协同决策终端",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "异常处理Agent！{确认/修改决策}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "异常处理Agent！{确认/修改决策}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "594de177-5398-4c7a-9aba-b687a64a44ac",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "0f5afb7a-d7dc-428d-a609-aae7b05f88bf",
+      "zIndex": 0,
+      "data": {
+        "source": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "target": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f"
+      },
+      "source": {
+        "cell": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "8859acc3-1093-40a1-9f1e-c3233a439fe5",
+      "zIndex": 0,
+      "data": {
+        "source": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "target": "4a97b010-09f6-4c19-8bcf-7779ac316d6b"
+      },
+      "source": {
+        "cell": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          },
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "b4ddde0a-43fc-4eb4-842d-1b1625edbd0b",
+      "zIndex": 0,
+      "data": {
+        "source": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "target": "ec26b171-59f5-4e0c-9914-03443d266188"
+      },
+      "source": {
+        "cell": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "ec26b171-59f5-4e0c-9914-03443d266188",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 277.5,
+        "y": 390
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "异常处理Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "2a6699e8-bdf0-46dc-ada2-83f38db6d41e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "ef64c1e5-7739-4550-b9a9-d47818b28735",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "c5ed9cb4-7486-473e-9c13-4c5575f2c89e",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "0f0ab79c-dabe-4cca-9ab3-12208737c745",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "5e91b98d-6bd4-4b9e-be08-647b9a88e02f",
+      "data": {
+        "type": "machineVariant",
+        "name": "异常处理Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 577.5,
+        "y": 495
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "异常生产环境"
+        },
+        "background": {
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "1a372a4b-b115-4b93-85a1-76766f621711",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "9e5543ab-fbfc-439d-a544-7709daeb48be",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "902b0fd5-8c0b-4137-a561-4e3772fab5c0",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "0e05599b-d7aa-4962-8bb3-dd0fff5cf263",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "4a97b010-09f6-4c19-8bcf-7779ac316d6b",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "异常生产环境",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 37.5,
+        "y": 285
+      },
+      "size": {
+        "width": 135,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "异常分类知识库"
+        },
+        "background": {
+          "width": 135,
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "width": 135,
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "x": 115,
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "x": 125,
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "eafde56c-c659-48af-ac35-6c07bdf7db0d",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "b12fbd74-acc7-4be7-a234-e70ddbab21ec",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "c524f0f6-211e-4578-b00e-8b4e38c85b83",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "0aba1d7b-af04-417a-8de2-20f0e0551984",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "3fdc1bba-86bc-4460-938d-9f96a53039c3",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "异常分类知识库",
+        "variant": "K"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": 577.5,
+        "y": 285
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "协同效率目标"
+        },
+        "background": {
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "325f9e1f-40e7-4d11-b284-ebbff0c20546",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "56bf778d-ffb9-4d65-92c1-13e8639c4290",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "c218feca-2b87-4da5-848e-72ca2442f6c6",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "7f4966e3-3737-45d7-b825-69fad2bdca7a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "ec26b171-59f5-4e0c-9914-03443d266188",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "协同效率目标",
+        "variant": "G"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": 45,
+        "y": 495
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "协同决策终端"
+        },
+        "background": {
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "cf6754fb-83f4-409c-bd0d-f2d9a869bbc9",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "c0931c17-6552-48ff-acf0-251bfd45817b",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "de464926-8106-4061-89cc-577ecc445660",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "418a34d7-ad27-4442-aaa5-ee9623216018",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "594de177-5398-4c7a-9aba-b687a64a44ac",
+      "data": {
+        "type": "design",
+        "name": "协同决策终端"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 570,
+        "y": 382.5
+      },
+      "size": {
+        "width": 135,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应实现无缝人机协同，确保复杂异常的有效解决"
+        },
+        "background": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a89c14fd-b825-44e3-98ec-77eba8b55907",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "73fc46b4-1ec7-4a98-8b99-46b6d1419a1c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "bdfefa0e-a79a-42db-8b40-a583ac9ed76a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "936593c0-d561-4392-a1bf-79d4fd0f4f41",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "b808dd6e-6d0d-448b-bc95-b569b0087eb9",
+      "data": {
+        "type": "requirement",
+        "name": "系统应实现无缝人机协同，确保复杂异常的有效解决"
+      },
+      "zIndex": 6
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:49:39.084Z",
+    "app": "problem-graph-tool"
+  }
+}

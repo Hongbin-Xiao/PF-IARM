@@ -1,0 +1,1490 @@
+{
+  "cells": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "d277ab65-d73a-4bc9-a787-a28df66b538c",
+      "zIndex": 0,
+      "data": {
+        "source": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "target": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "694feb4b-5f03-4fff-bf7a-473b84528969",
+            "nodeName": "排产优化Agent",
+            "phenomena": [
+              {
+                "id": "583e19a3-4cc5-442b-afe1-33be7b5cf117",
+                "text": "融合数据输入",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+            "nodeName": "生产资源状态",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "排产优化Agent！{融合数据输入}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "排产优化Agent！{融合数据输入}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "6ff8b956-ee16-4b8a-8df3-35ade45e5caa",
+      "zIndex": 0,
+      "data": {
+        "source": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+        "target": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+            "nodeName": "生产资源状态",
+            "phenomena": [
+              {
+                "id": "4070f51f-fc2f-468e-9dbe-b8eb39292cf5",
+                "text": "优化目标优先级",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+            "nodeName": "多目标优化域",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "生产资源状态！{优化目标优先级}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "生产资源状态！{优化目标优先级}"
+            }
+          },
+          "position": {
+            "distance": 0.5,
+            "offset": 45,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "b083b37a-08fb-4588-926c-a4a0b47f87df",
+      "zIndex": 0,
+      "data": {
+        "source": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+        "target": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+            "nodeName": "多目标优化域",
+            "phenomena": [
+              {
+                "id": "b3bffcc3-3288-40a2-afaf-cd9cc8fa8912",
+                "text": "目标权重分配",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "694feb4b-5f03-4fff-bf7a-473b84528969",
+            "nodeName": "排产优化Agent",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "多目标优化域！{目标权重分配}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "多目标优化域！{目标权重分配}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "447592a4-11b6-48a6-84e9-40d7065c1903",
+      "zIndex": 0,
+      "data": {
+        "source": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "target": "09f91df5-ad4b-45cb-bd3f-2b91bd43e9e5",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "694feb4b-5f03-4fff-bf7a-473b84528969",
+            "nodeName": "排产优化Agent",
+            "phenomena": [
+              {
+                "id": "40f51e0a-d4d6-4b53-bec9-ac7fe0f95a3e",
+                "text": "优化算法选择",
+                "order": 1
+              },
+              {
+                "id": "d8ae27ef-bfd1-4a89-9672-da7329aa7d0d",
+                "text": "算法参数调优",
+                "order": 2
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "09f91df5-ad4b-45cb-bd3f-2b91bd43e9e5",
+            "nodeName": "优化算法库",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "排产优化Agent！{优化算法选择, 算法参数调优}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "排产优化Agent！{优化算法选择, 算法参数调优}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "09f91df5-ad4b-45cb-bd3f-2b91bd43e9e5",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "9c1ddd31-b431-4e62-a0bf-3665ddf99a0f",
+      "zIndex": 0,
+      "data": {
+        "source": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "target": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "694feb4b-5f03-4fff-bf7a-473b84528969",
+            "nodeName": "排产优化Agent",
+            "phenomena": [
+              {
+                "id": "008cfca9-0107-4b04-8540-9f3a9b0839e0",
+                "text": "硬约束条件",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+            "nodeName": "生产约束空间",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "排产优化Agent！{硬约束条件}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "排产优化Agent！{硬约束条件}"
+            }
+          }
+        }
+      ],
+      "source": {
+        "cell": "694feb4b-5f03-4fff-bf7a-473b84528969",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "4b2853fe-468b-4f4b-8aab-4ed80a2c32a2",
+      "zIndex": 0,
+      "data": {
+        "source": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+        "target": "745d83f1-6943-4dbc-855b-7375112452c9",
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+            "nodeName": "生产约束空间",
+            "phenomena": [
+              {
+                "id": "d30b448c-f61a-4a5f-8a74-4acd49986180",
+                "text": "最优方案输出",
+                "order": 1
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "745d83f1-6943-4dbc-855b-7375112452c9",
+            "nodeName": "排产方案执行器",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "生产约束空间！{最优方案输出}"
+      },
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "生产约束空间！{最优方案输出}"
+            }
+          },
+          "position": {
+            "distance": 0.5,
+            "offset": -30,
+            "angle": 0
+          }
+        }
+      ],
+      "source": {
+        "cell": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+        "selector": "> rect:nth-child(2)"
+      },
+      "target": {
+        "cell": "745d83f1-6943-4dbc-855b-7375112452c9",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": null,
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "17ffe5d8-f18a-4fdb-a149-fc0a3f206531",
+      "zIndex": 0,
+      "data": {
+        "source": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "target": "745d83f1-6943-4dbc-855b-7375112452c9"
+      },
+      "source": {
+        "cell": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "745d83f1-6943-4dbc-855b-7375112452c9",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          },
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "b267f7c7-2da8-4bf7-9f18-e18fbe126ad5",
+      "zIndex": 0,
+      "data": {
+        "source": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "target": "90bed2a5-f2eb-45a8-b234-4089cfc17c21"
+      },
+      "source": {
+        "cell": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000000",
+          "targetMarker": {
+            "name": "classic",
+            "size": 8
+          },
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "c21dcde7-b354-44a5-b3c8-2acfde090ef3",
+      "zIndex": 0,
+      "data": {
+        "source": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "target": "3f27681f-87a6-4466-ba16-8e17fb5c1886"
+      },
+      "source": {
+        "cell": "59f41153-d551-4c84-8bde-449fef5869e3",
+        "selector": "> ellipse:nth-child(2)"
+      },
+      "target": {
+        "cell": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+        "selector": "> rect:nth-child(2)"
+      },
+      "tools": {
+        "items": [],
+        "name": null
+      }
+    },
+    {
+      "position": {
+        "x": 277.5,
+        "y": 360
+      },
+      "size": {
+        "width": 150,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "refX": 93,
+          "text": "排产优化Agent",
+          "textWrap": {
+            "width": 98
+          }
+        },
+        "background": {
+          "width": 150,
+          "fill": "#ffe6cc"
+        },
+        "border": {
+          "width": 150,
+          "stroke": "#cc7a00"
+        },
+        "line1": {
+          "stroke": "#cc7a00"
+        },
+        "line2": {
+          "stroke": "#cc7a00"
+        },
+        "badge": {
+          "x": 130,
+          "stroke": "#cc7a00",
+          "fill": "#ffe6cc"
+        },
+        "badgeText": {
+          "x": 140
+        }
+      },
+      "visible": true,
+      "shape": "machineVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "edae6f74-70ca-4abe-abae-3b00ec2ee4d5",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "97ca111d-b5b5-47ee-84b9-04c4bf98f064",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "b49f1b7b-bb55-4666-aa89-82078473864c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "1e522009-27b8-48d8-a1f6-6da32376d9d1",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "694feb4b-5f03-4fff-bf7a-473b84528969",
+      "data": {
+        "type": "machineVariant",
+        "name": "排产优化Agent",
+        "variant": "A"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 555,
+        "y": 270
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "生产资源状态"
+        },
+        "background": {
+          "fill": "#e6f0ff"
+        },
+        "border": {
+          "stroke": "#5b8def"
+        },
+        "badge": {
+          "stroke": "#5b8def",
+          "fill": "#e6f0ff"
+        },
+        "badgeText": {
+          "text": "E"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "b0631e60-6246-4073-968b-aaf16ae5ff12",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "ea9931ba-5ea1-46e9-8065-f6dcb4ce16d3",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "479e88d0-d352-44d7-81fb-3d4101333f3f",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "6b0030ae-21b7-48a7-ae6d-29d14a241ae3",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "9b5e9ad0-abf6-4695-9745-2576b8fe25fe",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "生产资源状态",
+        "variant": "E"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 555,
+        "y": 450
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "多目标优化域"
+        },
+        "background": {
+          "fill": "#f1e6ff"
+        },
+        "border": {
+          "stroke": "#7a46d9"
+        },
+        "badge": {
+          "stroke": "#7a46d9",
+          "fill": "#f1e6ff"
+        },
+        "badgeText": {
+          "text": "G"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "300f59b9-8619-4332-aa82-239716ad5a41",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "5689962a-7f6d-453c-86b4-4a8b2f0697c4",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "a2283982-b698-4d63-8576-40e74fdde555",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "85d2431d-3050-4bd6-ad66-cf1de1e1e120",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "3f27681f-87a6-4466-ba16-8e17fb5c1886",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "多目标优化域",
+        "variant": "G"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": -45,
+        "y": 270
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "优化算法库"
+        },
+        "background": {
+          "fill": "#ddf7ea"
+        },
+        "border": {
+          "stroke": "#2fa06e"
+        },
+        "badge": {
+          "stroke": "#2fa06e",
+          "fill": "#ddf7ea"
+        },
+        "badgeText": {
+          "text": "K"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "1d981cb9-0855-4ba4-b9bd-8ef7dc9d9be6",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "784b491f-addc-45d9-b0f2-035569ea1cdb",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "7bf9276b-38f8-4473-b815-3e97b46b52f5",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "a8f86442-d12b-4b30-9110-02770c29cdbb",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "09f91df5-ad4b-45cb-bd3f-2b91bd43e9e5",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "优化算法库",
+        "variant": "K"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": -45,
+        "y": 360
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "生产约束空间"
+        },
+        "background": {
+          "fill": "#ffe6f2"
+        },
+        "border": {
+          "stroke": "#d93a8a"
+        },
+        "badge": {
+          "stroke": "#d93a8a",
+          "fill": "#ffe6f2"
+        }
+      },
+      "visible": true,
+      "shape": "givenDomainVariant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "83b983fb-ffb1-4855-ac62-c6fe90c6705a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "089a53f6-73fe-4d2d-b499-8552aafddbd9",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "b854168d-4e0d-4419-8a0d-2e3283356084",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "00ddca91-bf06-49b2-a567-86dbfe98a212",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "90bed2a5-f2eb-45a8-b234-4089cfc17c21",
+      "data": {
+        "type": "givenDomainVariant",
+        "name": "生产约束空间",
+        "variant": "C"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": -45,
+        "y": 450
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "排产方案执行器"
+        },
+        "background": {
+          "fill": "#e9f0fb"
+        },
+        "border": {
+          "stroke": "#4c7edc"
+        },
+        "line1": {
+          "stroke": "#4c7edc"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "a4325f65-e0f4-4864-ae39-ae849fd53ac8",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "9640730f-ee68-452e-b947-cd1d182c5548",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "fac12b4f-52ca-40b3-90e6-d1ef6cc224f1",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "bbbc9274-5a49-4f49-85cf-fd608b2fd43c",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "745d83f1-6943-4dbc-855b-7375112452c9",
+      "data": {
+        "type": "design",
+        "name": "排产方案执行器"
+      },
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 285,
+        "y": 442.5
+      },
+      "size": {
+        "width": 135,
+        "height": 75
+      },
+      "attrs": {
+        "text": {
+          "text": "系统应在3分钟内生成满足所有硬约束的最优排产方案"
+        },
+        "background": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "fill": "#f8f8f8"
+        },
+        "border": {
+          "cx": 67.5,
+          "cy": 37.5,
+          "rx": 67.5,
+          "ry": 37.5,
+          "stroke": "#8a8f98"
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "right": {
+            "position": "right",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "bottom": {
+            "position": "bottom",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          "left": {
+            "position": "left",
+            "attrs": {
+              "circle": {
+                "r": 4,
+                "magnet": true,
+                "stroke": "#31d0c6",
+                "strokeWidth": 2,
+                "fill": "#fff",
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "group": "top",
+            "id": "9ecf415b-c986-48c1-81bf-28167af91328",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "right",
+            "id": "5eadf7e9-b1b8-422c-89e1-679c95ff9533",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "bottom",
+            "id": "abf72166-08e5-4b9e-8ef8-e8df55430fca",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          },
+          {
+            "group": "left",
+            "id": "d4c06bbb-dffc-4ff7-9138-758db1a93b0a",
+            "attrs": {
+              "circle": {
+                "style": {
+                  "visibility": "hidden"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "id": "59f41153-d551-4c84-8bde-449fef5869e3",
+      "data": {
+        "type": "requirement",
+        "name": "系统应在3分钟内生成满足所有硬约束的最优排产方案"
+      },
+      "zIndex": 7
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "exportedAt": "2025-11-11T14:48:49.676Z",
+    "app": "problem-graph-tool"
+  }
+}
