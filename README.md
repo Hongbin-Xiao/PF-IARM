@@ -1,4 +1,4 @@
-# PF-AIRM: Problem-Oriented Requirements Modeling for Intelligent Agents
+# PF-IARM: Problem-Oriented Requirements Modeling for Intelligent Agents
 
 [![License](https://img.shields.io/badge/license-Academic-blue.svg)]()
 [![Paper](https://img.shields.io/badge/paper-Published-green.svg)]()
@@ -6,7 +6,7 @@
 
 ## 📋 Overview
 
-**PF-AIRM** (Problem Frames based Agent Intelligent Requirements Modeling) is a systematic requirements engineering methodology specifically designed for intelligent agent systems in industrial applications. This method innovatively integrates Jackson's Problem Frames theory with the intelligent agent paradigm to address the limitations of traditional requirements engineering approaches in capturing agent characteristics such as autonomy, adaptability, and uncertainty.
+**PF-IARM** (Problem Frames based Agent Intelligent Requirements Modeling) is a systematic requirements engineering methodology specifically designed for intelligent agent systems in industrial applications. This method innovatively integrates Jackson's Problem Frames theory with the intelligent agent paradigm to address the limitations of traditional requirements engineering approaches in capturing agent characteristics such as autonomy, adaptability, and uncertainty.
 
 ## 🎯 Key Features
 
@@ -119,7 +119,7 @@ The methodology was validated through a comprehensive case study of an e-commerc
 | PF-CPS | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | PF-HCPS | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | PF-STPA | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **PF-AIRM** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **PF-IARM** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### Key Improvements
 - ✅ Enhanced expressiveness for agent characteristics
@@ -134,15 +134,15 @@ The methodology was validated through a comprehensive case study of an e-commerc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PF-AIRM.git
+git clone https://github.com/yourusername/PF-IARM.git
 
 # Install dependencies
-cd PF-AIRM
+cd PF-IARM
 npm install
 
 # Launch the modeling platform
 npm start
-@article{xiao2025pfairm,
+@article{xiao2025pfIARM,
   title={Problem-Oriented Requirements Modeling Methodology for Intelligent Agents},
   author={Xiao, Hongbin and Liu, Wanglong and Tan, Shuru and Wang, Wenhao and Li, Zhi and Tang, Fei},
   journal={Journal of Wuhan University (Natural Science Edition)},
