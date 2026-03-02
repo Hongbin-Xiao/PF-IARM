@@ -1,4 +1,4 @@
-# PF-IARM: Problem-Oriented Requirements Modeling for Intelligent Agents
+# PF-IARM:Intelligent Agent Requirements Modeling Based on Problem Frames
 
 [![License](https://img.shields.io/badge/license-Academic-blue.svg)]()
 [![Paper](https://img.shields.io/badge/paper-Published-green.svg)]()
@@ -7,6 +7,18 @@
 ## 📋 Overview
 
 **PF-IARM** (Problem Frames based Agent Intelligent Requirements Modeling) is a systematic requirements engineering methodology specifically designed for intelligent agent systems in industrial applications. This method innovatively integrates Jackson's Problem Frames theory with the intelligent agent paradigm to address the limitations of traditional requirements engineering approaches in capturing agent characteristics such as autonomy, adaptability, and uncertainty.
+
+
+**Problem Framews Meta Model**
+<img width="10498" height="4750" alt="problemframes" src="https://github.com/user-attachments/assets/6467145e-6408-44eb-8ed7-975b6ff1f783" />
+
+
+
+
+**PF-IARM Meta Model**
+
+<img width="9956" height="5017" alt="pF4Agent" src="https://github.com/user-attachments/assets/ab2b4c35-7a18-48bc-a42a-f9bb8d96b75a" />
+
 
 ## 🎯 Key Features
 
