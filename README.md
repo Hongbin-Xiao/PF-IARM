@@ -142,24 +142,7 @@ The methodology was validated through a comprehensive case study of an e-commerc
 ![00e98020cf3ddfd1e4dca83be3f218cc](https://github.com/user-attachments/assets/6eb7b3a8-c3dd-4c1f-95e3-3f4e68badcad)
 
 
-## 🛠️ Installation & Usage
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/PF-IARM.git
-
-# Install dependencies
-cd PF-IARM
-npm install
-
-# Launch the modeling platform
-npm start
-@article{xiao2025pfIARM,
-  title={Problem-Oriented Requirements Modeling Methodology for Intelligent Agents},
-  author={Xiao, Hongbin and Liu, Wanglong and Tan, Shuru and Wang, Wenhao and Li, Zhi and Tang, Fei},
-  journal={Journal of Wuhan University (Natural Science Edition)},
-  year={2025}
-}
 
 ## Complete case study
 **Step1需求获取与初步分析：**智能客服Agent是电子商务平台的自动化客户服务系统，承担自动化客户服务的任务。系统需实现对客户关于产品信息、订单状态及售后服务等多类查询的理解与响应，支持基于自然语言的交互。系统应具备对常见问题模式的识别和学习能力，以提高回答的准确性和覆盖范围。针对简单交易操作，如订单查询、退换货申请等，系统需实现自动化处理，减少人工介入。在复杂问题场景下，系统能够准确识别无法自动处理的请求，并实现向人工客服的无缝转接，确保服务的连续性和问题的有效解决。系统同时需要收集客户反馈信息，结合交互数据进行分析，支持服务质量的持续改进。该系统涉及多层次的物理与信息环境，包括用户交互终端、后台服务系统、数据库及人工客服接口。系统设计需要明确各环境之间的边界与交互关系，构建完整的问题模型，确保需求的准确表达。
